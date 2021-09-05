@@ -27,7 +27,6 @@ Features to be used will include:
 * Precipitation
 * Departing Airport
 * Airport Flights
-![image](https://user-images.githubusercontent.com/82389466/132112487-e63c496f-44cc-4801-a849-391c9b3894a4.png)
 
 
 * ERD (entity relationship diagram)
