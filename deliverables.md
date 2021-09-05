@@ -38,5 +38,8 @@
 
 ## Database
 	* Postgres, Google Drive
-    * ERD (entity relationship diagram)
+    	* ERD (entity relationship diagram)
+	
+	[erd] (https://github.com/tmmytwllms/final_project/blob/hernan_cortes/images/erd.jpg)
+	
 	• Draft machine learning module is connected to provisional database
