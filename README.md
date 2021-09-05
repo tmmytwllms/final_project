@@ -11,6 +11,16 @@ because global warming, need to adapt, best time to purchase tickets
 
 <ins>Description of data source</ins>
 
+This is a classification dataset with detailed airline, weather, airport and employment information.  24 raw data files are included for dataset customization, including adding cancellation, specific delay reasons, and/or arrival delays in order to create a multiclass problem. Note: Raw files for weather include only the top 90% of airports for passenger traffic, as all weather data was downloaded manually.
+
+Monthly data is included for 2019 and the first three months of 2020, with 2019 months comprising the train/test sets and 2020 months offering "new unseen" data. Small train/test is available to develop your model on ~500k rows before throwing computing power at the large, multi-million row train/test set.
+
+train-test-small: Jan 2019 ~500k rows
+train-test: Entire 2019 ~6.5million rows
+new-data: Jan - Mar 2020 (Consider dropping Mar 2020, as Covid-19 likely created irregularity with flight statistics) ~1.4million rows
+new-data-small: Jan 2020 ~500k rows
+
+**Sources**
 - Bureau of Transportation statistics: https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D
 - National Centers for Environmental Information (NOAA): https://www.ncdc.noaa.gov/cdo-web/datasets
 - Banner image: Photo by Kevin Woblick on Unsplash
