@@ -14,7 +14,20 @@
 
 ## Database
 * What db technology will be used?
-* AWS will be used to store and host the data for this project. A number of raw files will be added to the database in AWS and will be transformed using SQL language into several different tables to use for testing with the machine learning model. 
+* AWS will be used to store and host the data for this project. A number of raw files will be added to the database in AWS and will be transformed using SQL language into several different tables to use for testing with the machine learning model.
+
+Features to be used will include:
+* Month
+* Age of Departing Aircraft
+* Departure Block(time of day)
+* Carrier Name
+* Max Temp
+* Wind Speed
+* Snowfall
+* Precipitation
+* Departing Airport
+* Airport Flights
+![image](https://user-images.githubusercontent.com/82389466/132112487-e63c496f-44cc-4801-a849-391c9b3894a4.png)
 
 
 * ERD (entity relationship diagram)
