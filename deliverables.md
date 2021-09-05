@@ -40,6 +40,6 @@
 	* Postgres, Google Drive
     	* ERD (entity relationship diagram)
 
-![erd2](https://github.com/tmmytwllms/final_project/blob/hernan_cortes/images/erd.jpg)
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/82389466/132112291-7938e9e0-7663-4fbd-a594-81c683f0b328.png)
 	
 	• Draft machine learning module is connected to provisional database
