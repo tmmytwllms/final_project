@@ -4,9 +4,12 @@
 
 ## **Presentation Overview:**
 <ins>Topic:</ins>
+The targeted goal of this analysis is to predict departure delays based on various features. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few.
+
+
 
 * Rationale:
-because global warming, need to adapt, best time to purchase tickets
+Just in the last few months, natural disasters never seem to leave the front pages: historic fires throughout the western US, 500 year floads in Germany and the northeast US, back-to-back category 4 hurricanes in the southern states.  It is no longer a question of avoiding the effects of climate change, rather learning  how to adapt to it.  With this in mind, we wish to study the impact of weather on flight delays when compared to other potential factors (airline congestion, aircraft age/mechanical issues, etc.) to better understand what potential economic and logistic downstream effects to anticipate as weather conditions worsen.  While climate change is not the same as weather, a finding of strong correlation between weather and flight delays may establish a metric that could be useful to future researchers.
 
 
 <ins>Description of data source</ins>
@@ -20,12 +23,11 @@ train-test: Entire 2019 ~6.5million rows
 new-data: Jan - Mar 2020 (Consider dropping Mar 2020, as Covid-19 likely created irregularity with flight statistics) ~1.4million rows
 new-data-small: Jan 2020 ~500k rows
 
-**Sources**
+**Sources:**
 - Bureau of Transportation statistics: https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D
 - National Centers for Environmental Information (NOAA): https://www.ncdc.noaa.gov/cdo-web/datasets
 - Banner image: Photo by Kevin Woblick on Unsplash
-- 24 csv files
-- 
+
 #### **Target**
 - Delay (over 15 minutes)
 
