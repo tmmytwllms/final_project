@@ -13,8 +13,14 @@
 * what kinds of models will be deployed?
 
 ## Database
-* What db technology will be used? Postgres
+* What db technology will be used?
+* AWS will be used to store and host the data for this project. A number of raw files will be added to the database in AWS and will be transformed using SQL language into several different tables to use for testing with the machine learning model. 
+
+
 * ERD (entity relationship diagram)
+* A comprehensive ERD diagram has been posted and will be used as the layout for our database setup.
+
+(Hernan, insert photo here)
 
 ---
 
