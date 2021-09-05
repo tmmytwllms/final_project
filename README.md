@@ -24,15 +24,17 @@ train-test: Entire 2019 ~6.5million rows
 new-data: Jan - Mar 2020 (Consider dropping Mar 2020, as Covid-19 likely created irregularity with flight statistics) ~1.4million rows
 new-data-small: Jan 2020 ~500k rows
 
-**Sources:**
+<ins>Sources:</ins>
+
 - Bureau of Transportation statistics: https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D
 - National Centers for Environmental Information (NOAA): https://www.ncdc.noaa.gov/cdo-web/datasets
 - Banner image: Photo by Kevin Woblick on Unsplash
 
-#### **Target**
+<ins>Target:</ins>
+
 - Delay (over 15 minutes)
 
-#### **Features**
+<ins>Features:</ins>
 - Month
 - Age of Departing Aircraft
 - Departure Block (time of day)
