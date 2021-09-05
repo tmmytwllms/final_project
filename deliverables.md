@@ -39,7 +39,7 @@
 ## Database
 	* Postgres, Google Drive
     	* ERD (entity relationship diagram)
-![total_summary](https://github.com/cortesh/MechaCar_Statistical_Analysis/blob/main/total_summary.jpg)
+
 ![erd2](https://github.com/tmmytwllms/final_project/blob/hernan_cortes/images/erd.jpg)
 	
 	• Draft machine learning module is connected to provisional database
