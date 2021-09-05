@@ -19,8 +19,8 @@
 
 * ERD (entity relationship diagram)
 * A comprehensive ERD diagram has been posted and will be used as the layout for our database setup.
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/82389466/132112291-7938e9e0-7663-4fbd-a594-81c683f0b328.png)
 
-(Hernan, insert photo here)
 
 ---
 
