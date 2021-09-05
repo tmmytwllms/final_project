@@ -33,7 +33,7 @@ Monthly data is included for 2019 and the first three months of 2020, with 2019 
 train-test-small: Jan 2019 ~500k rows
 train-test: Entire 2019 ~6.5million rows
 new-data: Jan - Mar 2020 (Consider dropping Mar 2020, as Covid-19 likely created irregularity with flight statistics) ~1.4million rows
-new-data-small: Jan 2020 ~500k rows
+new-data-small: Jan 2020 ~500k rows.
 
 
 
