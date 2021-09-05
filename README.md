@@ -11,19 +11,6 @@ The targeted goal of this analysis is to predict departure delays based on vario
 
 Just in the last few months, natural disasters never seem to leave the front pages: historic fires throughout the western US, 500 year floads in Germany and the northeast US, back-to-back category 4 hurricanes in the southern states.  It is no longer a question of avoiding the effects of climate change, rather learning  how to adapt to it.  With this in mind, we wish to study the impact of weather on flight delays when compared to other potential factors (airline congestion, aircraft age/mechanical issues, etc.) to better understand what potential economic and logistic downstream effects to anticipate as weather conditions worsen.  While climate change is not the same as weather, a finding of strong correlation between weather and flight delays may establish a metric that could be useful to future researchers.
 
-
-* Questions we hope to answer 
-Use data to predict future flight delays.
-
-
-## Machine Learning Model
-* classification or predictive?
-* what kinds of models will be deployed?
-
-## Database
-* Postgres, Google Drive
-* ERD (entity relationship diagram)
-
 ---
 
 ## Table of Contents:
