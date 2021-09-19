@@ -348,7 +348,7 @@ X_train.shape
 ```
 
 ### Important Note: 
-- Unfortunately during testing this model had to be dropped and will not be utilizied further in this project. The model was unable to "fit" the data set and attempts to scale the data, scale Collabs with GPU processing, and run the model locally were uncessful. 
+- Unfortunately during testing this model had to be dropped and will not be utilizied further in this project. The model was unable to "fit" the dataset, and attempts to scale the data, both in Google Collabs and locally proved uncessful. 
 
 
 ### Database
