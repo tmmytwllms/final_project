@@ -3,11 +3,10 @@
 ## Table of Contents:
 
 ---
-- [Project Files](#Project-Files)
-- [Data Sources](#Data-Sources)
-- [Steps in Analysis](#Steps-in-Analysis)
-- [Data Gathering and Cleaning](#Data-Gathering-and-Cleaning)
-- [Visualization](#Visualization)
+- [Segment 1](#Segment 1)
+- [Segment 2](#Segment 2)
+- [Segment 3](#Segment 3)
+- [Segment 4](#Segment 4)
 
 ---
 
