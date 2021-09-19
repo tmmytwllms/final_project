@@ -108,13 +108,200 @@ commits for the duration of the second
 segment (eight total commits per person)
 
 
-### Machine Learning Model
-Team members submit the code for their machine learning model, as well as the
-following:
-- Description of preliminary data preprocessing 
-- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-- Description of how data was split into training and testing sets 
-- Explanation of model choice, including limitations and benefits
+## Machine Learning Models 
+Team members submit the code for their machine learning model, as well as the following:
+
+### Random Forest Model 
+
+#### 1. Explanation of model choice, including limitations and benefits:
+
+- Goal: The targeted goal of this analysis is to create a machine learning algorithm that classifies whether a flight will be delayed or not, and then ranks the importance of several features by how greatly they impact the prediction model.
+- Explanation: Random Forest Machine learning models sample a data set and build smaller and simpler decision trees, with each small tree being built from a random selection of the features specified. A combination of all these small trees, or weak learners, is combined to create a strong learner which has more robust decision making.
+- Benefits: Random Forest models are good for data sets which may be prone to overfitting. This type of model can handle larger data sets without adversely impacting processing time and mitigates from inaccuracies due to outliers. 
+- Limitations: The model may become too large and thus too slow for real-time uses such as loan predictions. It can also be un-intuitive as to how features are impacting the predictions of the model.  
+
+
+#### 2. Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
+
+Initially, the decision was made to only include the following 1 target and 10 features:
+
+```   
+Target:
+
+Delay (over 15 minutes)
+
+Features:
+
+Month
+Age of Departing Aircraft
+Departure Block (time of day)
+Carrier Name
+Max Temp
+Wind Speed
+Snowfall
+Precipitation
+Departing Airport
+Airport Flights
+
+```
+The previous 10 factors were chosen arbitrarily from the complete feature set as the group reached a consensus on what would most likely affect flight timeliness. During machine learning model testing this approach to features changed. The machine learning models were initially fed all features available in our data, a feature analysis was then conducted in order to rank feature importance and correlation. 
+
+``` 
+# Calculate feature importance in the Random Forest model.
+importances = rf_model.feature_importances_
+importances
+
+# Sort the features by their importance.
+sorted(zip(rf_model.feature_importances_, X.columns), reverse=True)
+
+# Correlation Matrix & Extra Feature Selection
+corr_matrix = encoded_df.corr()
+
+corr_matrix.style.background_gradient(cmap='coolwarm')
+
+target = 'DEP_DEL15'
+threshold = 0.015
+correlation_scores = corr_matrix[(corr_matrix[target] > threshold) | (corr_matrix[target] < -threshold)][target]
+
+correlation_scores.sort_values(ascending=False)
+
+``` 
+![image](https://user-images.githubusercontent.com/67031885/133938753-cc783573-30a7-496f-b01c-8ee1c383e6a1.png)
+
+![image](https://user-images.githubusercontent.com/67031885/133938769-06f699fe-8428-4d9b-9bd3-781f2d637f3d.png)
+
+Future Plans: During our stage 3 refinement of the machine learning model we will utilize the information obtained in order to cull less impactful features and attempt to address overfitting.
+
+#### 3. Description of preliminary data preprocessing
+
+- Our machine learning code is being hosted in Google Collab and our database is being hosted in AWS.
+
+- We connected to the database by installing a local version of Postgress in Google Collab and executed SQL commands using Postgress to retrieve the table data.
+
+![image](https://user-images.githubusercontent.com/67031885/133938432-636577f4-0122-4c28-ac60-51e8ece8bd92.png)
+
+
+- The data was then encoded and scaled using a standard scaler. 
+
+![image](https://user-images.githubusercontent.com/67031885/133938576-51fb0d80-2c69-489b-aa79-1c6518841559.png)
+
+![image](https://user-images.githubusercontent.com/67031885/133938593-b2a8761e-48ef-437f-9e7f-d55e6985500e.png)
+
+#### 4.	Description of how data was split into training and testing sets
+
+- For the Random Forest Model the following code was utilized to split into training and testing sets. 
+
+``` 
+
+# Define the features set.
+X = encoded_df.copy()
+X = X.drop("DEP_DEL15", axis=1)
+X.head()
+
+# Define the target set.
+y = encoded_df["DEP_DEL15"].ravel()
+y[:5]
+
+# Splitting into Train and Test sets.
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
+
+``` 
+
+## Machine Learning Models 
+Team members submit the code for their machine learning model, as well as the following:
+
+### SUPPORT VECTOR MACHINE (SVM)
+
+#### 1. Explanation of model choice, including limitations and benefits:
+
+- Goal: The targeted goal of this analysis is to create a machine learning algorithm that classifies whether a flight will be delayed or not, and then ranks the importance of several features by how greatly they impact the prediction model.
+- Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed. 
+- Benefits: While SVM seeks to split our dataset into two categories, it does not do so as rigorously as a linear regression model. SMV allows for "soft" margins and has logic implemented which accounts for outliers and may make exceptions for them. This means some data points past the "cut off" line/point may still be sorted into the opposite classification.
+- Limitations: The training/fitting time for large data sets is a large barrier, even with scaled data the processing time for large data sets can be lengthy and resource intensive.  
+
+#### 2. Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
+
+Initially, the decision was made to only include the following 1 target and 10 features:
+
+```   
+Target:
+
+Delay (over 15 minutes)
+
+Features:
+
+Month
+Age of Departing Aircraft
+Departure Block (time of day)
+Carrier Name
+Max Temp
+Wind Speed
+Snowfall
+Precipitation
+Departing Airport
+Airport Flights
+
+```
+The previous 10 factors were chosen arbitrarily from the complete feature set as the group reached a consensus on what would most likely affect flight timeliness. During machine learning model testing this approach to features changed. The machine learning models were initially fed all features available in our data, a feature analysis was then conducted in order to rank feature importance and correlation. 
+
+``` 
+# Sort the features by their importance.
+sorted(zip(rf_model.feature_importances_, X.columns), reverse=True)
+
+# Correlation Matrix & Extra Feature Selection
+corr_matrix = encoded_df.corr()
+
+corr_matrix.style.background_gradient(cmap='coolwarm')
+
+target = 'DEP_DEL15'
+threshold = 0.015
+correlation_scores = corr_matrix[(corr_matrix[target] > threshold) | (corr_matrix[target] < -threshold)][target]
+
+correlation_scores.sort_values(ascending=False)
+
+``` 
+![image](https://user-images.githubusercontent.com/67031885/133938753-cc783573-30a7-496f-b01c-8ee1c383e6a1.png)
+
+![image](https://user-images.githubusercontent.com/67031885/133938769-06f699fe-8428-4d9b-9bd3-781f2d637f3d.png)
+
+
+#### 3. Description of preliminary data preprocessing
+
+- Our machine learning code is being hosted in Google Collab and our database is being hosted in AWS.
+
+- We connected to the database by installing a local version of Postgress in Google Collab and executed SQL commands using Postgress to retrieve the table data.
+
+![image](https://user-images.githubusercontent.com/67031885/133938432-636577f4-0122-4c28-ac60-51e8ece8bd92.png)
+
+
+- The data was then encoded and scaled using a standard scaler. 
+
+![image](https://user-images.githubusercontent.com/67031885/133938576-51fb0d80-2c69-489b-aa79-1c6518841559.png)
+
+![image](https://user-images.githubusercontent.com/67031885/133938593-b2a8761e-48ef-437f-9e7f-d55e6985500e.png)
+
+#### 4.	Description of how data was split into training and testing sets
+
+- For the SVM model the following code was utilized to split into training and testing sets. 
+
+``` 
+
+# Segmenting the features from the target
+y = encoded_df["DEP_DEL15"]
+X = encoded_df.drop(columns='DEP_DEL15', axis=1).values
+
+# Utilizing train_test_split function to create training and testing subsets
+X_train, X_test, y_train, y_test = train_test_split(X, 
+                                                    y, 
+                                                    random_state=1, 
+                                                    stratify=y)
+X_train.shape
+
+```
+
+### Important Note: 
+- Unfortunately during testing this model had to be dropped and will not be utilizied further in this project. The model was unable to "fit" the data set and attempts to scale the data, scale Collabs with GPU processing, and run the model locally were uncessful. 
+
 
 ### Database
 Team members present a fully integrated database.
