@@ -118,10 +118,10 @@ following:
 
 ### Database
 Team members present a fully integrated database.
-- Database stores static data for use during the project: Raw data tables and aggregated data tables have been imported into the database from the Kaggle dataset.
-- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) : The machine learning models connect to the database. Several notebooks and scripts have also connected to the database in order to perform data cleansing, data transformation, and read/write operations. 
-- Includes at least two tables (or collections, if using MongoDB). We are using PostgreSQL.
-- Includes at least one join using the database language (not including any joins in Pandas). We did not need to join our tables as we were provided with tables from our dataset to use for training the machine model and a "new data" table to test the model.
+- Database stores static data for use during the project: Raw data tables and aggregated data tables have been imported into the database using pgAdmin from the Kaggle dataset.
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) : The machine learning models connect to the database. Data is stored using pgAdmin, and hosted via AWS. Several notebooks and scripts have also connected to the database in order to perform data cleansing, data transformation, and read/write operations. 
+- Includes at least two tables (or collections, if using MongoDB). The database contains multiple tables, including a training and testing set for use with the machine learning models. We are using PostgreSQL.
+- Includes at least one join using the database language (not including any joins in Pandas). The data that is being used for this project is divided in such a way that no additional tables needed to be built via a series of joins.
 - Includes at least one connection string (using SQLAlchemy or PyMongo). We connect to our database using a direct connection using a Google Colab notebook.
 - Note: If you use a SQL database, you must provide your ERD with relationships. ERD has been provided for the raw data tables.
 
