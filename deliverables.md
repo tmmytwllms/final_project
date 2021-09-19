@@ -81,10 +81,12 @@ __Content__.
 
 The presentation outlines the project,
 including the following:
-✓ Selected topic ✓ Reason why they selected their topic ✓ Description of their source of data ✓ Questions they hope to answer with
-the data ✓ Description of the data exploration
-phase of the project ✓ Description of the analysis phase of
-the project
+- Selected topic 
+- Reason why they selected their topic 
+- Description of their source of data 
+- Questions they hope to answer with the data 
+- Description of the data exploration phase of the project 
+- Description of the analysis phase of the project
 Slides Presentations are drafted in Google Slides
 
 ### GitHub
@@ -115,19 +117,13 @@ following:
 - Explanation of model choice, including limitations and benefits
 
 ### Database
-Team members present a fully integrated
-database.
-✓ Database stores static data for use
-during the project ✓ Database interfaces with the project in
-some format (e.g., scraping updates the
-database, or database connects to the
-model) ✓ Includes at least two tables (or
-collections, if using MongoDB) ✓ Includes at least one join using the
-database language (not including any
-joins in Pandas) ✓ Includes at least one connection string
-(using SQLAlchemy or PyMongo)
-Note: If you use a SQL database, you
-must provide your ERD with relationships.
+Team members present a fully integrated database.
+- Database stores static data for use during the project 
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) 
+- Includes at least two tables (or collections, if using MongoDB) 
+- Includes at least one join using the database language (not including any joins in Pandas) 
+- Includes at least one connection string (using SQLAlchemy or PyMongo)
+- Note: If you use a SQL database, you must provide your ERD with relationships.
 
 ### Dashboard
 A blueprint for the dashboard is created
