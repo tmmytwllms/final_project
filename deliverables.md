@@ -108,13 +108,65 @@ commits for the duration of the second
 segment (eight total commits per person)
 
 
-### Machine Learning Model
-Team members submit the code for their machine learning model, as well as the
-following:
-- Description of preliminary data preprocessing 
-- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-- Description of how data was split into training and testing sets 
-- Explanation of model choice, including limitations and benefits
+### Machine Learning Models 
+Team members submit the code for their machine learning model, as well as the following:
+
+#### SUPPORT VECTOR MACHINE (SVM)
+
+1.	Explanation of model choice, including limitations and benefits:
+
+- Goal: The targeted goal of this analysis is to create a machine learning algorithm that classifies whether a flight is delayed or not, and then ranks the importance of several features by how greatly they impact the prediction model.
+- Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed. 
+- Benefits: While SVM seeks to split our dataset into two categories, it does not do so as rigorously as a linear regression model. SMV allows for "soft" margins and has logic implemented which accounts for outliers and may make exceptions for them. This means some data points past the "cut off" line/point may still be sorted into the opposite classification.
+- Limitations: The training/fitting time for large data sets is a large barrier, even with scaled data the processing time for large data sets can be lengthy and resource intensive.  
+
+2.	Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
+Initially, the decision was made to only include the following 1 target and 10 features:
+
+```   
+Target:
+
+Delay (over 15 minutes)
+
+Features:
+
+Month
+Age of Departing Aircraft
+Departure Block (time of day)
+Carrier Name
+Max Temp
+Wind Speed
+Snowfall
+Precipitation
+Departing Airport
+Airport Flights
+
+```
+The previous 10 factors were chosen arbitrarily from the complete feature set as the group reached a consensus on what would most likely affect flight timeliness. 
+
+During machine learning model testing this approach to features changed. The machine learning models were initially fed all features available in our data set. 
+
+CODE SCREENSHOT 
+
+A feature analysis was conducted in order to rank feature importance and correlation. 
+
+CODE SCREENSHOT 
+
+Future Plans: During our stage 3 refinement of the machine learning model we will utilize the information obtained in order to cull less impactful features and attempt to address overfitting. 
+
+3.	Description of preliminary data preprocessing
+
+Our machine learning code is being hosted in Google Collab and our database is being hosted in AWS. 
+•	We connected to the database by installing a local version of Postgress in Google Collab and executed SQL commands using Postgress to retrieve the table data. 
+•	The data was then encoded and scaled using a standard scaler. 
+
+
+4.	Description of how data was split into training and testing sets
+
+
+
+
+
 
 ### Database
 Team members present a fully integrated database.
