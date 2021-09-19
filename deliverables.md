@@ -1,3 +1,17 @@
+---
+
+## Table of Contents:
+
+---
+- [Project Files](#Project-Files)
+- [Data Sources](#Data-Sources)
+- [Steps in Analysis](#Steps-in-Analysis)
+- [Data Gathering and Cleaning](#Data-Gathering-and-Cleaning)
+- [Visualization](#Visualization)
+
+---
+
+
 # Segment 1
 ## Presentation:
 	• Selected topic: 
