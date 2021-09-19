@@ -240,7 +240,15 @@ Airport Flights
 ```
 The previous 10 factors were chosen arbitrarily from the complete feature set as the group reached a consensus on what would most likely affect flight timeliness. During machine learning model testing this approach to features changed. The machine learning models were initially fed all features available in our data, a feature analysis was then conducted in order to rank feature importance and correlation. 
 
+![random_forest_feature_rank](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_feature_rank.png)
 
+![random_forest_acc_scores](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_acc_scores.png)
+
+After running the random forest feature rank, editting the DataFrame to include the top 8 features, and rerunning the data on the trained model, the classification report still shows an overfitting issue. 
+
+**Correlation Matrix**
+
+![correlation_matrix](https://github.com/tmmytwllms/final_project/blob/main/Images/correlation_matrix.png)
 
 Future Plans: During our stage 3 refinement of the machine learning model we will utilize the information obtained in order to cull less impactful features and attempt to address overfitting and attempt to perform a **cross validation** test method on the data.
 
