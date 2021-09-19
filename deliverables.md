@@ -11,8 +11,8 @@
 ---
 
 
-# Segment 1
-## Presentation:
+## Segment 1
+### Presentation:
 	• Selected topic: 
     The targeted goal of this analysis is to predict departure delays based on various features. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few.
 
@@ -33,28 +33,28 @@
 	• Questions they hope to answer with the data
     Use data to predict future flight delays.
 
-## GitHub
+### GitHub
 	• Description of communication protocols
     Each team member had created a GitHub branch to push his or her work and the repo owner will merge them to the main branch at the end.  We are making use of Slack to communicate as well as zoom.
 	• Descriptions / explanations required in project deliverables should be in readme
     Readme.md has been created with project details and will grow with the project until final project presentation.
 
-## Project Workflow
+### Project Workflow
     • Raw data files stored in Google Drive folder
     • Postgres db will connect data files according to data model using SQL and output flat csv to be used to create Pandas dataframes to train machine learning modules 
     • Google Collab Notebooks will store machine learning code
 
 
-## Machine Learning Model:
+### Machine Learning Model:
 	• Takes in data in from provisional database
 	• Outputs label(s) for input data
 
-## Database
+### Database
 	## Database
 * What db technology will be used?
 * AWS will be used to store and host the data for this project. A number of raw files will be added to the database in AWS and will be transformed using SQL language into several different tables to use for testing with the machine learning model.
 
-### Features to be used will include:
+#### Features to be used will include:
 * Month
 * Age of Departing Aircraft
 * Departure Block(time of day)
@@ -69,6 +69,6 @@
 <br/>
 <br/>
 
-### ERD (entity relationship diagram)
+#### ERD (entity relationship diagram)
 * A comprehensive ERD diagram has been posted and will be used as the layout for our database setup.
 ![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/82389466/132112291-7938e9e0-7663-4fbd-a594-81c683f0b328.png)
