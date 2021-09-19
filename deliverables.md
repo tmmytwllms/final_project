@@ -5,8 +5,8 @@
 ---
 - [Segment 1](#Segment-1)
 - [Segment 2](#Segment-2)
-- [Segment 3](#Segment 3)
-- [Segment 4](#Segment 4)
+- [Segment 3](#Segment-3)
+- [Segment 4](#Segment-4)
 
 ---
 
@@ -130,3 +130,7 @@ A blueprint for the dashboard is created
 and includes all of the following:
 ✓ Storyboard on Google Slide(s) ✓ Description of the tool(s) that will be
 used to create final dashboard ✓ Description of interactive element(s) 
+
+## Segment 3
+
+## Segment 4
