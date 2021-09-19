@@ -3,7 +3,7 @@
 ## Table of Contents:
 
 ---
-- [Segment 1](#Segment 1)
+- [Project Files](#Project-Files)
 - [Segment 2](#Segment 2)
 - [Segment 3](#Segment 3)
 - [Segment 4](#Segment 4)
