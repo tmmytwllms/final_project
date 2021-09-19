@@ -77,7 +77,8 @@
 ## Segment 2
 
 ### Presentation
-Content
+__Content__.
+
 The presentation outlines the project,
 including the following:
 ✓ Selected topic ✓ Reason why they selected their topic ✓ Description of their source of data ✓ Questions they hope to answer with
