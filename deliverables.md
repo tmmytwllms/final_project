@@ -207,8 +207,48 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
 
 ``` 
 
-## Machine Learning Models 
-Team members submit the code for their machine learning model, as well as the following:
+### Logistic Regression Model 
+
+#### 1. Explanation of model choice, including limitations and benefits:
+- Goal: The targeted goal of this analysis is to create a machine learning algorithm that classifies whether a flight will be delayed or not, and then ranks the importance of several features by how greatly they impact the prediction model.
+- Explanation: Logistic regression predicts binary outcomes, meaning that there are only two possible outcomes. In other words, a logistic regression model analyzes the available data, and when presented with a new sample, mathematically determines its probability of belonging to a class.
+- Benefits: Logistic Regression is one of the simplest machine learning algorithms and is easy to implement yet provides great training efficiency in some cases. Also due to these reasons, training a model with this algorithm doesn't require high computation power.
+- Limitations: Logistic Regression is a statistical analysis model that attempts to predict precise probabilistic outcomes based on independent features. On high dimensional datasets, this may lead to the model being over-fit on the training set, which means overstating the accuracy of predictions on the training set and thus the model may not be able to predict accurate results on the test set.
+
+#### 2. Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
+
+Initially, the decision was made to only include the following 1 target and 10 features:
+
+```   
+Target:
+
+Delay (over 15 minutes)
+
+Features:
+
+Month
+Age of Departing Aircraft
+Departure Block (time of day)
+Carrier Name
+Max Temp
+Wind Speed
+Snowfall
+Precipitation
+Departing Airport
+Airport Flights
+
+```
+The previous 10 factors were chosen arbitrarily from the complete feature set as the group reached a consensus on what would most likely affect flight timeliness. During machine learning model testing this approach to features changed. The machine learning models were initially fed all features available in our data, a feature analysis was then conducted in order to rank feature importance and correlation. 
+
+
+
+Future Plans: During our stage 3 refinement of the machine learning model we will utilize the information obtained in order to cull less impactful features and attempt to address overfitting and attempt to perform a **cross validation** test method on the data.
+
+#### 3. Description of preliminary data preprocessing
+Same method and steps as other models.
+
+#### 4.	Description of how data was split into training and testing sets
+Same method and steps as other models.
 
 ### SUPPORT VECTOR MACHINE (SVM)
 
