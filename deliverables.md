@@ -109,13 +109,10 @@ segment (eight total commits per person)
 ### Machine Learning Model
 Team members submit the code for their machine learning model, as well as the
 following:
-✓ Description of preliminary data
-preprocessing ✓ Description of preliminary feature
-engineering and preliminary feature
-selection, including their decision-making
-process ✓ Description of how data was split into
-training and testing sets ✓ Explanation of model choice, including
-limitations and benefits
+- Description of preliminary data preprocessing 
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+- Description of how data was split into training and testing sets 
+- Explanation of model choice, including limitations and benefits
 
 ### Database
 Team members present a fully integrated
