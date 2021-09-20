@@ -362,7 +362,16 @@ Team members present a fully integrated database.
 
 ### Data Munging
 - The original dataset representing over 6 million records proved to large to easly submit to machine learning models; therfore, we deployed an R script to sample the datasize down to 1/10 of its original size.
-- Further data exploration revealed 
+- Further data exploration revealed errors in the orginal dataset that compromised the integrity and possible findings of the machine learning models.  The month of August was accidentally saved as September. (see screen capture below)
+![image](https://github.com/tmmytwllms/final_project/blob/main/Images/discover_dups2.jpg)
+
+This resulted in the absence of September as well as the doubling of the month of August. (see SQL query below)
+![image](https://github.com/tmmytwllms/final_project/blob/main/Images/discover_dups1.jpg)
+
+We were able to remove the duplications from a pandas notebook, re-sample the universe, export the dataframe as a csv and upload to the database:
+![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups1.jpg)
+![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups2.jpg)
+![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups3.jpg)
 
 ### Dashboard
 A blueprint for the dashboard is created and includes all of the following:
