@@ -100,7 +100,7 @@ README.md README.md includes:
 - Description of the communication protocols 
 - Outline of the project (this may include images, but should be easy to follow and digest)
 
-_As per our in class instruction, Git Hub commits are commensurate with our communication needs.  In addition to our Git Hub commits, we have worked directly in the Main branch on occassion as well as through Slack and Zoom as needed._ 
+_As per our in-class instruction, Git Hub commits are commensurate with our communication needs.  In addition to our Git Hub commits, we have worked directly in the Main branch on occassion as well as through Slack and Zoom as needed._ 
 
 
 ## Machine Learning Models 
@@ -311,7 +311,7 @@ correlation_scores.sort_values(ascending=False)
 
 - Our machine learning code is being hosted in Google Collab and our database is being hosted in AWS.
 
-- We connected to the database by installing a local version of Postgress in Google Collab and executed SQL commands using Postgress to retrieve the table data.
+- We connected to a hosted AWS database using python code in our Collab notebooks and executed SQL commands using a local Postgress to retrieve the table data.
 
 ![image](https://user-images.githubusercontent.com/67031885/133938432-636577f4-0122-4c28-ac60-51e8ece8bd92.png)
 
