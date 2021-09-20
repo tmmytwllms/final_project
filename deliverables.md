@@ -81,8 +81,7 @@
 ### Presentation
 __Content__.
 
-The presentation outlines the project: _Please refer to deliverable 1 above_
-including the following:
+The Readme as well as the "Deliverable 1" section above of the current document includes the following:
 - Selected topic 
 - Reason why they selected their topic 
 - Description of their source of data 
@@ -102,8 +101,6 @@ The main branch should include:
 README.md README.md must include: 
 ✓ Description of the communication protocols 
 ✓ Outline of the project (this may include images, but should be easy to follow and digest)
-
-_Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted._
 
 As per our in class instruction, Git Hub commits are commensurate with our communication needs.  In addition to our Git Hub commits, we have worked directly in the Main branch on occassion as well as through Slack and Zoom as needed. 
 
