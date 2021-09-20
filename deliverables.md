@@ -369,9 +369,11 @@ This resulted in the absence of September as well as the doubling of the month o
 ![image](https://github.com/tmmytwllms/final_project/blob/main/Images/discover_dups1.jpg)
 
 We were able to remove the duplications from a pandas notebook, re-sample the universe, export the dataframe as a csv and upload to the database:
-![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups1.jpg)
-![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups2.jpg)
-![image](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups3.jpg)
+![dedup1](https://github.com/tmmytwllms/final_project/blob/main/Images/dedup1.jpg)
+
+![dedup2](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups2.jpg)
+
+![dedup3](https://github.com/tmmytwllms/final_project/blob/main/Images/dedups3.jpg)
 
 ### Dashboard
 A blueprint for the dashboard is created and includes all of the following:
