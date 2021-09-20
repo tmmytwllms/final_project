@@ -368,17 +368,19 @@ Team members present a fully integrated database.
 This resulted in the absence of September as well as the doubling of the month of August. (see SQL query below)
 ![image](https://github.com/tmmytwllms/final_project/blob/main/Images/discover_dups1.jpg)
 
-We were able to remove the duplications from a pandas notebook, re-sample the universe, export the dataframe as a csv and upload to the database:
+We were able to remove the duplications from a pandas notebook, 
 ![dedup1](https://github.com/tmmytwllms/final_project/blob/main/Images/dedup1.jpg)
 
+re-sample the universe
 ![dedup2](https://github.com/tmmytwllms/final_project/blob/main/Images/dedup2.jpg)
 
+chart the new distribution of the resampled dataset and export the dataframe as a csv and upload to the database:
 ![dedup3](https://github.com/tmmytwllms/final_project/blob/main/Images/dedup3.jpg)
 
 ### Dashboard
 A blueprint for the dashboard is created and includes all of the following:
 ✓ Storyboard on Google Slide(s) 
-✓ Description of the tool(s) that will be used to create final dashboard 
+✓ We will be using a Tableau Public dashboard to present our story as well as provide opportunities to select filters and generate dynamic charts.
 ✓ Description of interactive element(s) 
 
 ## Segment 3
