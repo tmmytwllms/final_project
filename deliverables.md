@@ -81,7 +81,7 @@
 ### Presentation
 __Content__.
 
-The Readme as well as the "Deliverable 1" section above of the current document includes the following:
+The Readme as well as the "Deliverable 1" section of the current document includes the following:
 - Selected topic 
 - Reason why they selected their topic 
 - Description of their source of data 
@@ -92,21 +92,18 @@ The Readme as well as the "Deliverable 1" section above of the current document 
 Slides Presentations are drafted in Google Slides
 
 ### GitHub
-Main Branch All code in the main branch is productionready.
+The main branch includes: 
+- All code necessary to perform exploratory analysis 
+- Some code necessary to complete the machine learning portion of the project 
 
-The main branch should include: 
-✓ All code necessary to perform exploratory analysis 
-✓ Some code necessary to complete the machine learning portion of the project 
+README.md README.md includes: 
+- Description of the communication protocols 
+- Outline of the project (this may include images, but should be easy to follow and digest)
 
-README.md README.md must include: 
-✓ Description of the communication protocols 
-✓ Outline of the project (this may include images, but should be easy to follow and digest)
-
-As per our in class instruction, Git Hub commits are commensurate with our communication needs.  In addition to our Git Hub commits, we have worked directly in the Main branch on occassion as well as through Slack and Zoom as needed. 
+_As per our in class instruction, Git Hub commits are commensurate with our communication needs.  In addition to our Git Hub commits, we have worked directly in the Main branch on occassion as well as through Slack and Zoom as needed._ 
 
 
 ## Machine Learning Models 
-Team members submit the code for their machine learning model, as well as the following:
 
 ### Random Forest Model 
 
@@ -381,7 +378,7 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 
 - We will be using a Tableau Public dashboard to present our story as well as provide opportunities to select filters and generate dynamic charts.
 
-- Description of interactive element(s) 
+- Interactive elements include Average Monthly Flights, Flight delays by weekday and departure block, delays by flight distance, concurrent flights, and airports.
 
 ## Segment 3
 
