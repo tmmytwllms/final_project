@@ -376,9 +376,12 @@ chart the new distribution of the resampled dataset and export the dataframe as 
 
 ### Dashboard
 A blueprint for the dashboard is created and includes all of the following:
-✓ Storyboard on Google Slide(s): https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEFgKY/edit?usp=sharing
-✓ We will be using a Tableau Public dashboard to present our story as well as provide opportunities to select filters and generate dynamic charts.
-✓ Description of interactive element(s) 
+- Storyboard on Google Slide(s):
+https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEFgKY/edit?usp=sharing
+
+- We will be using a Tableau Public dashboard to present our story as well as provide opportunities to select filters and generate dynamic charts.
+
+- Description of interactive element(s) 
 
 ## Segment 3
 
