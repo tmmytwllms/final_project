@@ -355,7 +355,7 @@ Team members present a fully integrated database.
 - ERD has been provided for the raw data tables.
 
 ### Data Munging
-- The original dataset representing over 6 million records proved too large to easily submit to machine learning models; therefore, we deployed an R script to sample the datasize down to 1/10 of its original size.
+- The original dataset representing over 6 million records proved too large to easily submit to machine learning models; therefore, we deployed an R script to sample the data size down to 1/10 of its original size.
 - Further data exploration revealed errors in the orginal dataset that compromised the integrity and possible findings of the machine learning models.  The month of August was accidentally saved as September. (see screen capture below)
 ![image](https://github.com/tmmytwllms/final_project/blob/main/Images/discover_dups2.jpg)
 
