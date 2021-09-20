@@ -89,7 +89,7 @@ The Readme as well as the "Deliverable 1" section of the current document includ
 - Description of the data exploration phase of the project 
 - Description of the analysis phase of the project
 
-Slides Presentations are drafted in Google Slides
+Slides Presentations are drafted in Google Slides (see link below)
 
 ### GitHub
 The main branch includes: 
