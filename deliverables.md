@@ -393,7 +393,7 @@ __Content__
 
 * _Questions:_ "What are the key features most corrolated to on-time departures?"
 
-* _Description of the data exploration phase of the project:_ 
+* _Description of the data exploration phase of the project:_ Our initial dataset (train_test.csv) is a very clean and high quality file, consisting of 6,538,721 rows with no null values.  There are 25 columns:
 
 * _Description of the analysis phase of the project_ 
 
