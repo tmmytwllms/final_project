@@ -397,6 +397,7 @@ __Content__
 
 ![EDA](https://github.com/tmmytwllms/final_project/blob/main/Images/EDA.jpg)
 
+Data munging will be described below and consists of removing duplications for August records.
 
 * _Description of the analysis phase of the project_ 
 
