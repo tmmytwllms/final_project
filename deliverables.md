@@ -384,14 +384,29 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 ### __Presentation__
 
 __Content__
-The presentation tells a story about their project, including the following:
-* _Topic:_  
-* _Rationale:_ 
-* _Description data source:_
-* _Questions:_
-* _Description of the data exploration phase of the project_ 
+
+* _Topic:_ The targeted goal of this analysis is to identify the features most associated with on-time departures. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few. 
+
+* _Rationale:_ According to Airlines for America (A4A)in 2019, "the average cost of aircraft block (taxi plus airborne) time for U.S. passenger airlines was $74.24 per minute...Delayed aircraft are estimated to have cost the airlines several billion dollars in additional expense. Delays also drive the need for extra gates and ground personnel and impose costs on airline customers (including shippers) in the form of lost productivity, wages and goodwill." <sup id="a1">[1](#f1)</sup>  In addition to the considerable losses associated with delays, there are psychological costs as well. A 2007, University of Michigan’s American Customer Satisfaction Index score for U.S. airlines registered only 63% satisfaction.<sup id="a2">[2](#f2)</sup> Since the return to high volume air travel after months of pandemic-induced closed borders and the grounding of most flights, we have seen a disturbing rise in "passenger unruliness".  According to a recent CNN report, the FAA has issued more than $1 million in fines to such passengers already in 2021. <sup id="a3">[3](#f3)</sup>  while most of the media attention has been focused on the refusal to wear masks during flights, data from the IATA from 2012-2015 demonstrate the rise of passenger disruption well before the onset of the pandemic.<sup id="a4">[4](#f4)</sup>  Many reasons contribute to this rise: fuller cabins, shrinking leg space, increased security checks, additional fees for cary-on bags, etc.  Such issues are endemic to the industry and effect all carriers to varying degrees.  However, flight delays, as already mentioned, add to an already challenging travel sector.
+
+* _Description data source:_ This is a classification dataset with detailed airline, weather, airport and employment information collected from the Bureau of Transportation statistics, National Center for Environment Information (NOAA).  Flight delay data has been curated by Jen Wadkins and stored on kaggle.com (https://www.kaggle.com/threnjen/2019-airline-delays-and-cancellations) and includes 24 raw data files, 1 train_test_small (Jan 2019), 1 train_test 2019, new_data 2020 and new_data_small (2020).  We are using 1 large train_test consisting of 6.5 million records as our universe.
+
+* _Questions:_ "What are the key features most corrolated to on-time departures?"
+
+* _Description of the data exploration phase of the project:_ 
+
 * _Description of the analysis phase of the project_ 
+
 * _Technologies, languages, tools, and algorithms used throughout the project_
+
+## Footnotes
+<b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
+
+<b id="f2">2</b>: See https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ecu0707.pdf.
+
+<b id="f3">3</b>: See https://www.cnn.com/travel/article/flight-attendants-unruly-passengers-covid/index.html.
+
+<b id="f4">4</b>: Ibid.
 
 Slides Presentations are drafted in Google Slides
 ## Segment 4
