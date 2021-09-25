@@ -69,9 +69,9 @@ Banner image: Photo by Kevin Woblick on Unsplash
 
 
 ## Footnotes
-<b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.[↩](#a1)
+<b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/. [↩]
 
-<b id="f2">2</b>: See https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ecu0707.pdf.[↩](#a2)
+<b id="f2">2</b>: See https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ecu0707.pdf. [↩]
 
 [^3]: See https://www.cnn.com/travel/article/flight-attendants-unruly-passengers-covid/index.html.
 
