@@ -381,5 +381,17 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 - Interactive elements include Average Monthly Flights, Flight delays by weekday and departure block, delays by flight distance, concurrent flights, and airports.
 
 ## Segment 3
+### __Presentation__
 
+__Content__
+The presentation tells a story about their project, including the following:
+* _Topic:_  
+* _Rationale:_ 
+* _Description data source:_
+* _Questions:_
+* _Description of the data exploration phase of the project_ 
+* _Description of the analysis phase of the project_ 
+* _Technologies, languages, tools, and algorithms used throughout the project_
+
+Slides Presentations are drafted in Google Slides
 ## Segment 4
