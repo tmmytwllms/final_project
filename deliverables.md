@@ -673,7 +673,7 @@ correlation_scores.sort_values(ascending=False)
 
 <details>
 	
-<summary> Confusion Matrix Summary </summary>
+<summary> Classification Report Summary </summary>
 
 
 We have trained and tested the data with the following models and all of which resulted in overfitted results:
