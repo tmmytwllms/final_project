@@ -222,7 +222,7 @@ In general, we utilized a similar approach for all of the models we tested and a
 3. The dataset is split into a Training and Test set
 4. The Data is scaled
 5. The model is initiated and the data is Fit
-6. The model makes the predictions
+6. The model is trained
 7. Data Validation occurs and accuracy scores, confusion matrixes, correlation reports, etc are formulated. 
 	
 Below is an example of how the model is fit starting with step 3 on the list above:
