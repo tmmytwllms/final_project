@@ -437,6 +437,14 @@ In addition, the SVM model had to be dropped due to the size of the dataset bein
 > - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
 
 ### __Database__
+Team members present a fully integrated database.
+
+Raw data tables and aggregated data tables have been imported into the database using pgAdmin from the Kaggle dataset.
+Data is stored using pgAdmin and hosted via AWS. Several notebooks and scripts have also connected to the database in order to perform data cleansing, data transformation, and read/write operations.
+The database contains multiple tables, including a training and testing set for use with the machine learning models. We are using PostgreSQL.
+The data that is being used for this project is divided in such a way that no additional tables needed to be built via a series of joins.
+We connect to our database using a direct connection using a Google Colab notebook.
+ERD has been provided for the raw data tables.
 
 
 
