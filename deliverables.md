@@ -408,7 +408,7 @@ Data munging will be described below and consists of removing duplications for A
 ### __Machine Learning Model__
 
 #### Feature Selection
-The sample_train_test table contain 26 features so we performed a feature selection to reduce the number of input variables for the predictive model. We used a combination of a tree-based estimator (i.e. random forests) and the correlation matrix to get an insight of the most influential features on the targeted variable ("DEP_DEL15" = Departure delays over 15 minutes). Here are the features selected:
+The sample_train_test table contain 26 features so we performed a feature selection to reduce the number of input variables for the predictive model. We used a combination of a tree-based estimator (i.e. random forests) and the correlation matrix to get an insight of the most influential features on the targeted variable ("DEP_DEL15" = Departure delays over 15 minutes). Here are the features selected based:
 
 ```
 'DEP_BLOCK' - Departure block
@@ -421,8 +421,17 @@ The sample_train_test table contain 26 features so we performed a feature select
 'AWND' - Max wind speed for day
 'SNOW' - Inches of snowfall for day
 ```
-Random forest feature selection output: Click [here]()
-Correlation matrix output: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/correlation_matrix.png)
+> - Random forest feature selection output: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_feature_rank.png)
+> - Correlation matrix output: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/correlation_matrix.png)
+
+
+#### Failed Models
+We have trained and tested the data with the following models and all of which resulted in overfitted results:
+- Logistic Regression Model
+- K-nearest Neighbor Model
+- Ensemble Random Forest Model
+
+In addition, the SVM model had to be dropped due to the size of the dataset being too large for the limited resources that is available to us. The model was unable to "fit" the dataset, and attempts to scale the data, both in Google Colabs and locally proved unsuccessful.
 
 ### __Database__
 
