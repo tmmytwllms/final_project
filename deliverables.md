@@ -391,7 +391,7 @@ __Content__
 
 * _Description data source:_ This is a classification dataset with detailed airline, weather, airport and employment information collected from the Bureau of Transportation statistics, National Center for Environment Information (NOAA).  Flight delay data has been curated by Jen Wadkins and stored on kaggle.com (https://www.kaggle.com/threnjen/2019-airline-delays-and-cancellations) and includes 24 raw data files, 1 train_test_small (Jan 2019), 1 train_test 2019, new_data 2020 and new_data_small (2020).  We are using 1 large train_test consisting of 6.5 million records as our universe.
 
-* _Questions:_ "What are the key features most corrolated to on-time departures?"
+* _Questions:_ "What are the key features most correlated to on-time departures?"
 
 * _Description of the data exploration phase of the project:_ Our initial dataset (train_test.csv) is a very clean and high quality file, consisting of 6,538,721 rows with no null values.  
 
