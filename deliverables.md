@@ -403,6 +403,14 @@ Data munging will be described below and consists of removing duplications for A
 
 * _Technologies, languages, tools, and algorithms used throughout the project_
 
+### __GitHub__
+
+### __Machine Learning Model__
+
+### __Database__
+
+
+
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
 
