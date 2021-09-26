@@ -408,7 +408,7 @@ Data munging will be described below and consists of removing duplications for A
 ### __Machine Learning Model__
 
 #### Feature Selection
-The sample_train_test table contain 26 features so we performed a feature selection to reduce the number of input variables for the predictive model. We used a combination of a tree-based estimator (i.e. random forests) and the correlation matrix to get an insight of the most influential features on the targeted variable ("DEP_DEL15" = Departure delays over 15 minutes). Here are the features selected based:
+The sample_train_test table contain 26 features so we performed a feature selection to reduce the number of input variables for the predictive model. We used a combination of a tree-based estimator (i.e. random forests) and the correlation matrix to get an insight of the most influential features on the targeted variable ("DEP_DEL15" = Departure delays over 15 minutes). Here are the features selected:
 
 ```
 'DEP_BLOCK' - Departure block
@@ -431,7 +431,7 @@ We have trained and tested the data with the following models and all of which r
 - K-nearest Neighbor Model
 - Ensemble Random Forest Model
 
-In addition, the SVM model had to be dropped due to the size of the dataset being too large for the limited resources that is available to us. The model was unable to "fit" the dataset, and attempts to scale the data, both in Google Colabs and locally proved unsuccessful.
+In addition, the SVM model had to be dropped due to the size of the dataset being too large for our limited resources. The model was unable to "fit" the dataset and attempts to scale the data, both in Google Colabs and locally, proved unsuccessful.
 
 > - Logistic regression classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_acc_scores.png)
 > - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
