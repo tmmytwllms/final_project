@@ -407,6 +407,23 @@ Data munging will be described below and consists of removing duplications for A
 
 ### __Machine Learning Model__
 
+#### Feature Selection
+The sample_train_test table contain 26 features so we performed a feature selection to reduce the number of input variables for the predictive model. We used a combination of a tree-based estimator (i.e. random forests) and the correlation matrix to get an insight of the most influential features on the targeted variable ("DEP_DEL15" = Departure delays over 15 minutes). Here are the features selected:
+
+```
+'DEP_BLOCK' - Departure block
+'SEGMENT_NUMBER' - The segment that this tail number is on for the day
+'CONCURRENT_FLIGHTS' - Concurrent flights leaving from the airport in the same departure block
+'AIRLINE_AIRPORT_FLIGHTS_MONTH' - Avg Flights per month for Airline AND Airport
+'AIRPORT_FLIGHTS_MONTH' - Avg Airport Flights per Month
+'PRCP' - Inches of precipitation for day
+'TMAX' - Max temperature for day
+'AWND' - Max wind speed for day
+'SNOW' - Inches of snowfall for day
+```
+Random forest feature selection output: Click [here]()
+Correlation matrix output: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/correlation_matrix.png)
+
 ### __Database__
 
 
