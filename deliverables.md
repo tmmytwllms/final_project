@@ -690,7 +690,7 @@ We have trained and tested the data with the following models and all of which r
 
 	
 ### __Database__
-
+A fully integrated database has been created using AWS RDS and pgAdmin. A table for each of the raw data tables and aggregated tables provided in the Kaggle dataset was created in the pgAdmin database. The tables were then populated by importing the csv file into the tables. Several Google Colab notebooks, Jupyter notebooks, and other scripts connect to the database in order to perform data cleansing, data transformation, and read/write operations. Training and testing set tables for use with the machine learning models were created using PostgreSQL. The data that is being used for this project is divided in such a way that no additional tables needed to be built via a series of joins. An ERD has been provided for the raw data tables to provide a visual of the database architecture and metadata details.
 
 
 ## Footnotes
