@@ -1,0 +1,72 @@
+-- aggregate month/day
+select "MONTH","DAY_OF_WEEK",count("DEP_DEL15") 
+into groupby_month_day
+from public."train_test"  
+WHERE "DEP_DEL15" = 'true'
+group by "MONTH","DAY_OF_WEEK"
+;
+
+select * from groupby_month_day;
+-- aggregate carrier
+select "CARRIER_NAME",count("DEP_DEL15") 
+into groupby_carrier
+from public."train_test"  
+WHERE "DEP_DEL15" = 'true'
+group by "CARRIER_NAME"
+;
+
+-- aggregate lat/long
+select "LATITUDE","LONGITUDE",count("DEP_DEL15") 
+into groupby_latlong
+from public."train_test"  
+WHERE "DEP_DEL15" = 'true'
+group by "LATITUDE","LONGITUDE"
+;
+-- create lookup day of the week
+CREATE TABLE days_week (
+  DAY_OF_WEEK INT NOT NULL,
+  DAY_NAME VARCHAR(10) NOT NULL,
+  PRIMARY KEY (DAY_OF_WEEK),
+  UNIQUE (DAY_NAME)
+);
+
+INSERT INTO days_week (DAY_OF_WEEK, DAY_NAME)
+VALUES 
+(1, 'Monday'),
+(2, 'Tuesday'),
+(3, 'Wednesday'),
+(4, 'Thursday'),
+(5, 'Friday'),
+(6, 'Saturday'),
+(7, 'Sunday')
+	;
+
+-- create lookup day of the week
+CREATE TABLE month_name (
+  "MONTH" INT NOT NULL,
+  MONTH_NAME VARCHAR(10) NOT NULL,
+  PRIMARY KEY ("MONTH"),
+  UNIQUE (MONTH_NAME)
+);
+
+INSERT INTO month_name ("MONTH", MONTH_NAME) 
+VALUES 
+(1, 'Jan'),
+(2, 'Feb'),
+(3, 'Mar'),
+(4, 'Apr'),
+(5, 'May'),
+(6, 'Jun'),
+(7, 'Jul'),
+(8, 'Aug'),
+(9, 'Sep'),
+(10, 'Oct'),
+(11, 'Nov'),
+(12, 'Dec')
+;
+
+SELECT *
+FROM groupby_month_day
+LEFT JOIN month_name
+ON groupby_month_day."MONTH" = month_name."MONTH"
+;
