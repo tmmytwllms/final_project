@@ -434,6 +434,7 @@ We have trained and tested the data with the following models and all of which r
 In addition, the SVM model had to be dropped due to the size of the dataset being too large for the limited resources that is available to us. The model was unable to "fit" the dataset, and attempts to scale the data, both in Google Colabs and locally proved unsuccessful.
 
 > - Logistic regression classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_acc_scores.png)
+> - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
 
 ### __Database__
 
