@@ -395,7 +395,9 @@ __Content__
 
 * _Description of the data exploration phase of the project:_ Our initial dataset (train_test.csv) is a very clean and high quality file, consisting of 6,538,721 rows with no null values.
   
-* _EDA:_ Tableau was used in combination with the dataset to perform exploratory data analysis on the dataset. Key features were plotted against the number of departure delays for the year of 2020. These features were plotted to provide a high level overview of the data to assess which features were associated with the largest number of delays.        Key features that were originally targeted for machine learning were: plane age in years, concurrent flights by plane, average wind speed in miles per hour, average max temperature in fahrenheit, plane segment number, airline flights per month, airport flights per month, departure block by time of day, average precipitation in inches, and average snowfall in inches. https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/snowvsdelays?publish=yes
+* _EDA:_ Tableau was used in combination with the dataset to perform exploratory data analysis on the dataset. Key features were plotted against the number of departure delays for the year of 2020. These features were plotted to provide a high level overview of the data to assess which features were associated with the largest number of delays.        Key features that were originally targeted for machine learning were: plane age in years, concurrent flights by plane, average wind speed in miles per hour, average max temperature in fahrenheit, plane segment number, airline flights per month, airport flights per month, departure block by time of day, average precipitation in inches, and average snowfall in inches. https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
+
+* _Database EDA:_ pgAdmin postgres was also used for exploratory data analyis. Tables were created to compare aggregate measures of the previously mentioned target features in the EDA section. 
 
 ![EDA](https://github.com/tmmytwllms/final_project/blob/main/Images/EDA.jpg)
 
