@@ -416,10 +416,18 @@ This is a classification dataset with detailed airline, weather, airport and emp
 Data munging will be described below and consists of removing duplications for August records.
 </details>
 
-* _Description of the analysis phase of the project_ 
+<details>
+<summary>Description of the analysis phase of the project</summary>
+* Used SQL queries, Tableau and pandas notebooks to execute initial analysis, using cross tables and matplotlib charts to visualize the data.
+* We used R to initially generate a sample size that our tools could properly analyze.
+* It is here that we discovered that the month of September was missing and that August data was duplicated. We used python to remove duplicate records and resample the dataset to train/test in our machine learning models. 
+</details>
 
-* _Technologies, languages, tools, and algorithms used throughout the project_
-	
+<details>
+<summary>Technologies, languages, tools, and algorithms used throughout the project</summary>
+* Technologies: Postgres SQL (pgAdmin), AWS, Google (Collab, Slides, Drive), Tableau (Tableau Public), Pandas Notebook
+* Languages: Python, R, SQL
+* Libraries: matplotlib, os, pathlib, numpy, seaborn, sklearn, collections, imblearn
 </details>
 
 <details>
