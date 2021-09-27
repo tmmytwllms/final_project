@@ -622,9 +622,9 @@ Below is a more in depth look at the models utilized, their limitations, and the
 - Limitations: The model may become too large and thus too slow for real-time uses such as loan predictions. It can also be un-intuitive as to how features are impacting the predictions of the model.
 
 #### 4. K-nearest Neighbor Model:
-- Explanation: 
-- Benefits: 
-- Limitations: 
+- Explanation: The KNN is a supervised machine learning algorithm which assumes that similar things exist in close approximity so it captures the idea of similarity by calculating the distance between points on a graph. 
+- Benefits: The algorithm is simple and easy to implement and there's no need to build a model, tune several parameters, or make additional assumptions. It is also versatile in that it can be used for classification and regression data.
+- Limitations: The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.  The model is not practical where predictions need to be made rapidly. 
 	
 #### 5. Support Vector Machine:
 - Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed.
@@ -713,8 +713,11 @@ correlation_scores.sort_values(ascending=False)
 
 We have trained and tested the data with the following models and all of which resulted in overfitted results:
 - Logistic Regression Model
+	- Accuracy score: 81%
 - K-nearest Neighbor Model
+	- Accuracy score: 79%
 - Ensemble Random Forest Model
+	- Accuracy score: 81%
 
 > - Logistic regression classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_acc_scores.png)
 > - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
