@@ -384,7 +384,7 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 ### __Presentation__
 
 __Content__
-
+<details>
 * _Topic:_ The targeted goal of this analysis is to identify the features most associated with on-time departures. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few. 
 
 * _Rationale:_ According to Airlines for America (A4A)in 2019, "the average cost of aircraft block (taxi plus airborne) time for U.S. passenger airlines was $74.24 per minute...Delayed aircraft are estimated to have cost the airlines several billion dollars in additional expense. Delays also drive the need for extra gates and ground personnel and impose costs on airline customers (including shippers) in the form of lost productivity, wages and goodwill." <sup id="a1">[1](#f1)</sup>  In addition to the considerable losses associated with delays, there are psychological costs as well. A 2007, University of Michigan’s American Customer Satisfaction Index score for U.S. airlines registered only 63% satisfaction.<sup id="a2">[2](#f2)</sup> Since the return to high volume air travel after months of pandemic-induced closed borders and the grounding of most flights, we have seen a disturbing rise in "passenger unruliness".  According to a recent CNN report, the FAA has issued more than $1 million in fines to such passengers already in 2021. <sup id="a3">[3](#f3)</sup>  while most of the media attention has been focused on the refusal to wear masks during flights, data from the IATA from 2012-2015 demonstrate the rise of passenger disruption well before the onset of the pandemic.<sup id="a4">[4](#f4)</sup>  Many reasons contribute to this rise: fuller cabins, shrinking leg space, increased security checks, additional fees for cary-on bags, etc.  Such issues are endemic to the industry and effect all carriers to varying degrees.  However, flight delays, as already mentioned, add to an already challenging travel sector.
@@ -406,8 +406,9 @@ Data munging will be described below and consists of removing duplications for A
 * _Description of the analysis phase of the project_ 
 
 * _Technologies, languages, tools, and algorithms used throughout the project_
-
+</details>
 ### __GitHub__
+Our communication system is comprised of using GitHub, Slack, and Zoom to coordinate, contribute and commit our respective work.  Each team member has made significant and frequent commits far exceeding the minimal requirements for this deliverable to their individual branches as well as to the main branch directly.  We have also contributed to external platforms like Google (e.g., Drive, Collab, & Slides), Tableau Public, AWS.
 
 ### __Machine Learning Model__
 
@@ -585,9 +586,9 @@ Below is a more in depth look at the models utilized, their limitations, and the
 - Limitations: The model may become too large and thus too slow for real-time uses such as loan predictions. It can also be un-intuitive as to how features are impacting the predictions of the model.
 
 #### 4. K-nearest Neighbor Model:
-- Explanation: The KNN is a supervised machine learning algorithm which assumes that similar things exist in close approximity so it captures the idea of similarity by calculating the distance between points on a graph. 
-- Benefits: The algorithm is simple and easy to implement and there's no need to build a model, tune several parameters, or make additional assumptions. It is also versatile in that it can be used for classification and regression data.
-- Limitations: The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.  The model is not practical where predictions need to be made rapidly. 
+- Explanation: 
+- Benefits: 
+- Limitations: 
 	
 #### 5. Support Vector Machine:
 - Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed.
@@ -682,11 +683,8 @@ correlation_scores.sort_values(ascending=False)
 
 We have trained and tested the data with the following models and all of which resulted in overfitted results:
 - Logistic Regression Model
-	- Accuracy score: 81%
 - K-nearest Neighbor Model
-	- Accuracy score: 79%
 - Ensemble Random Forest Model
-	- Accuracy score: 81%
 
 > - Logistic regression classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/random_forest_acc_scores.png)
 > - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
