@@ -588,7 +588,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
 </details>
 
 <details>
-	
 <summary>  Model Choices & Changes </summary>
 
 Initially it was decided that a Logistic Regression and a SVM model were to be utilized  as our machine learning models. We experienced two major hurdles associated with our model choices:
@@ -621,14 +620,10 @@ Below is a more in depth look at the models utilized, their limitations, and the
 - Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed.
 - Benefits: While SVM seeks to split our dataset into two categories, it does not do so as rigorously as a linear regression model. SMV allows for "soft" margins and has logic implemented which accounts for outliers and may make exceptions for them. This means some data points past the "cut off" line/point may still be sorted into the opposite classification.
 - Limitations: The training/fitting time for large data sets is a large barrier, even with scaled data the processing time for large data sets can be lengthy and resource intensive.
-
-	
 </details>
 
-<details>
-	
+<details>	
 <summary> Training the Models </summary>
-
 In general, we utilized a similar approach for all of the models we tested and attempted to establish a standardized and repeatable process:
 
 1. The Data is imported and preprocessed 
@@ -704,9 +699,7 @@ correlation_scores.sort_values(ascending=False)
 </details>
 
 <details>
-	
 <summary> Classification Report Summary </summary>
-
 
 We have trained and tested the data with the following models and all of which resulted in overfitted results:
 - Logistic Regression Model
@@ -722,19 +715,20 @@ We have trained and tested the data with the following models and all of which r
 
 <details>
 	
-<summary> __Database__ </summary>
+<summary>Database</summary>
 
 - A fully integrated database has been created using AWS RDS and pgAdmin. 
 - Multiple schemas were created to store raw data files imported from csv.
 - sql scripts were used to join, aggregate, transform and export data.
 - Several Google Colab, Jupyter notebooks, and other scripts connect to the database to perform data cleansing, transformation, and read/write operations. 
 - An ERD has been provided for the raw data tables to provide a visual of the database architecture and metadata details.
-
 </details>
 
+<details>
+<summary>Slides Presentation</summary>
+Slides Presentation are drafted in Google Slides Click [here](https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEFgKY/edit?usp=sharing)
 
-Slides Presentations are drafted in Google Slides
-
+</details>
 Tableau Public: 
 
 
