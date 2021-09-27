@@ -726,14 +726,14 @@ We have trained and tested the data with the following models and all of which r
 
 <details>
 <summary>Slides Presentation</summary>
-Slides Presentation are drafted in Google Slides Click [here](https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEFgKY/edit?usp=sharing)
-
+Slides Presentation are drafted in Google Slides 
+https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEFgKY/edit?usp=sharing
 </details>
-Tableau Public: 
 
-
-
+<details>
+<summary>Tableau Public</summary>
 https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
+</details>
 
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
