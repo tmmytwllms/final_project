@@ -412,9 +412,9 @@ Data munging will be described below and consists of removing duplications for A
 
 <summary>GitHub</summary>
 
-
 Our communication system is comprised of using GitHub, Slack, and Zoom to coordinate, contribute and commit our respective work.  Each team member has made significant and frequent commits far exceeding the minimal requirements for this deliverable to their individual branches as well as to the main branch directly.  We have also contributed to external platforms like Google (e.g., Drive, Collab, & Slides), Tableau Public, AWS.
-
+</details>
+	
 ### __Machine Learning Model__
 
 <details>
