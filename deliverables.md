@@ -381,11 +381,10 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 - Interactive elements include Average Monthly Flights, Flight delays by weekday and departure block, delays by flight distance, concurrent flights, and airports.
 
 ## Segment 3
-### __Presentation__
 
 <details>
 
-<summary> __Content__ </summary>
+<summary> Presentation</summary>
 	
 * _Topic:_ The targeted goal of this analysis is to identify the features most associated with on-time departures. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few. 
 
@@ -409,7 +408,11 @@ Data munging will be described below and consists of removing duplications for A
 	
 </details>
 
-### __GitHub__
+<details>
+
+<summary>GitHub</summary>
+
+
 Our communication system is comprised of using GitHub, Slack, and Zoom to coordinate, contribute and commit our respective work.  Each team member has made significant and frequent commits far exceeding the minimal requirements for this deliverable to their individual branches as well as to the main branch directly.  We have also contributed to external platforms like Google (e.g., Drive, Collab, & Slides), Tableau Public, AWS.
 
 ### __Machine Learning Model__
