@@ -383,9 +383,9 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 ## Segment 3
 ### __Presentation__
 
-__Content__
-
 <details>
+
+<summary> __Content__ </summary>
 	
 * _Topic:_ The targeted goal of this analysis is to identify the features most associated with on-time departures. This will provide insights on how likely your next flight would be delayed based on if certain conditions are being met, such as the weather or the time of your travel to name a few. 
 
@@ -394,10 +394,8 @@ __Content__
 * _Description data source:_ This is a classification dataset with detailed airline, weather, airport and employment information collected from the Bureau of Transportation statistics, National Center for Environment Information (NOAA).  Flight delay data has been curated by Jen Wadkins and stored on kaggle.com (https://www.kaggle.com/threnjen/2019-airline-delays-and-cancellations) and includes 24 raw data files, 1 train_test_small (Jan 2019), 1 train_test 2019, new_data 2020 and new_data_small (2020).  We are using 1 large train_test consisting of 6.5 million records as our universe.
 
 * _Question:_ "What are the key features most correlated to on-time departures?"
-
-* _Description of the data exploration phase of the project:_ Our initial dataset (train_test.csv) is a very clean and high quality file, consisting of 6,538,721 rows with no null values.
   
-* _EDA:_ Tableau was used in combination with the dataset to perform exploratory data analysis on the dataset. Key features were plotted against the number of departure delays for the year of 2020. These features were plotted to provide a high level overview of the data to assess which features were associated with the largest number of delays.        Key features that were originally targeted for machine learning were: plane age in years, concurrent flights by plane, average wind speed in miles per hour, average max temperature in fahrenheit, plane segment number, airline flights per month, airport flights per month, departure block by time of day, average precipitation in inches, and average snowfall in inches. https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
+* _EDA:_ Our initial dataset (train_test.csv) is a very clean and high quality file, consisting of 6,538,721 rows with no null values.  Tableau was used in combination with the dataset to perform exploratory data analysis on the dataset. Key features were plotted against the number of departure delays for the year of 2020. These features were plotted to provide a high level overview of the data to assess which features were associated with the largest number of delays.        Key features that were originally targeted for machine learning were: plane age in years, concurrent flights by plane, average wind speed in miles per hour, average max temperature in fahrenheit, plane segment number, airline flights per month, airport flights per month, departure block by time of day, average precipitation in inches, and average snowfall in inches. 
 
 * _Database EDA:_ pgAdmin postgres was also used for exploratory data analyis. Tables were created to compare aggregate measures of the previously mentioned target features in the EDA section. 
 
@@ -408,7 +406,9 @@ Data munging will be described below and consists of removing duplications for A
 * _Description of the analysis phase of the project_ 
 
 * _Technologies, languages, tools, and algorithms used throughout the project_
+	
 </details>
+
 ### __GitHub__
 Our communication system is comprised of using GitHub, Slack, and Zoom to coordinate, contribute and commit our respective work.  Each team member has made significant and frequent commits far exceeding the minimal requirements for this deliverable to their individual branches as well as to the main branch directly.  We have also contributed to external platforms like Google (e.g., Drive, Collab, & Slides), Tableau Public, AWS.
 
@@ -695,10 +695,26 @@ We have trained and tested the data with the following models and all of which r
 
 </details>
 
+<details>
 	
-### __Database__
-A fully integrated database has been created using AWS RDS and pgAdmin. A table for each of the raw data tables and aggregated tables provided in the Kaggle dataset was created in the pgAdmin database. The tables were then populated by importing the csv file into the tables. Several Google Colab notebooks, Jupyter notebooks, and other scripts connect to the database in order to perform data cleansing, data transformation, and read/write operations. Training and testing set tables for use with the machine learning models were created using PostgreSQL. The data that is being used for this project is divided in such a way that no additional tables needed to be built via a series of joins. An ERD has been provided for the raw data tables to provide a visual of the database architecture and metadata details.
+<summary> __Database__ </summary>
 
+- A fully integrated database has been created using AWS RDS and pgAdmin. 
+- Multiple schemas were created to store raw data files imported from csv.
+- sql scripts were used to join, aggregate, transform and export data.
+- Several Google Colab, Jupyter notebooks, and other scripts connect to the database to perform data cleansing, transformation, and read/write operations. 
+- An ERD has been provided for the raw data tables to provide a visual of the database architecture and metadata details.
+
+</details>
+
+
+Slides Presentations are drafted in Google Slides
+
+Tableau Public: 
+
+
+
+https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
 
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
@@ -709,5 +725,6 @@ A fully integrated database has been created using AWS RDS and pgAdmin. A table 
 
 <b id="f4">4</b>: Ibid.
 
-Slides Presentations are drafted in Google Slides
+
+
 ## Segment 4
