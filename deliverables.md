@@ -13,7 +13,7 @@
 
 ## Segment 1
 <details>
-<summary>Segment 1</summary>
+<summary>Expand Content Here</summary>
 https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
 
 
@@ -81,7 +81,7 @@ https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/F
 
 ## Segment 2
 <details>
-<summary>Segment 2</summary>
+<summary>Expand Content Here</summary>
 ---
 
 ### Presentation
@@ -391,7 +391,7 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 ## Segment 3
 <details>
 
-<summary>Segment 3</summary>
+<summary>Expand Content Here</summary>
 
 ### __Presentation__ 
 
@@ -779,7 +779,7 @@ https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/F
 
 ## Segment 4
 <details>	
-<summary>Segment 4</summary>
+<summary>Expand Content Here</summary>
 
 ### __Presentation__ 
 
@@ -1154,8 +1154,6 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
 </details>
 
-</details>
-
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
 
@@ -1164,4 +1162,8 @@ https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/F
 <b id="f3">3</b>: See https://www.cnn.com/travel/article/flight-attendants-unruly-passengers-covid/index.html.
 
 <b id="f4">4</b>: Ibid.
+
+</details>
+
+
 
