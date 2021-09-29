@@ -1156,11 +1156,8 @@ https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/F
 
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
-
 <b id="f2">2</b>: See https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ecu0707.pdf.
-
 <b id="f3">3</b>: See https://www.cnn.com/travel/article/flight-attendants-unruly-passengers-covid/index.html.
-
 <b id="f4">4</b>: Ibid.
 
 </details>
