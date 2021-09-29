@@ -630,6 +630,11 @@ Below is a more in depth look at the models utilized, their limitations, and the
 - Explanation: A Support Vector Machine model is similar to a logistic regression model in that is also a binary classifier, it splits the sample in to two categories; in our data set the two categories being Delayed or Not Delayed.
 - Benefits: While SVM seeks to split our dataset into two categories, it does not do so as rigorously as a linear regression model. SMV allows for "soft" margins and has logic implemented which accounts for outliers and may make exceptions for them. This means some data points past the "cut off" line/point may still be sorted into the opposite classification.
 - Limitations: The training/fitting time for large data sets is a large barrier, even with scaled data the processing time for large data sets can be lengthy and resource intensive.
+	
+#### 6. Neural Network
+- Explanation: Neural networks are set of algorithms that are modeled after the human brain. It contains layers of neuron layers, which perform individual computations. These computations are connected and weighted against one another until the neurons reach the final layer and returns a numerical result or an encoded categorical result. 
+- Benefits: Neural networks are effective at detecting complex, nonlinear relationships and have greater tolerance for messy data and can learn to ignore noisy characteristics in data.
+- Limitations: The layers of neurons were too complex to dissect and understand.
 </details>
 
 <details>	
@@ -723,7 +728,7 @@ We have trained and tested the data with the following models and all of which r
 > - KNN classification report: Click [here](https://github.com/tmmytwllms/final_project/blob/main/Images/knn_class_report.png)
 > - Ensemble Random Forest Model classification report: Click [here](https://user-images.githubusercontent.com/67031885/134825521-7e1e6738-7a33-4153-8037-1b873fadd712.PNG)
 
-
+- Neural Network 
 </details>
 
 ### __Database__
