@@ -1154,6 +1154,7 @@ https://docs.google.com/presentation/d/18d2kpjwzPQlTeO8HySODeFJqht5v4XSi9c_GcyEF
 https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/FeaturesvsAirlineDelays?publish=yes
 </details>
 
+<details>
 ## Footnotes
 <b id="f1">1</b>: See https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/.
 <b id="f2">2</b>: See https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ecu0707.pdf.
@@ -1163,4 +1164,15 @@ https://public.tableau.com/app/profile/tommy.williams/viz/flight_delay_project/F
 </details>
 
 
+### Instruction on Running the Machine Learning Models 
+<details>
+<summary>Instruction To Run the Machine Learning Models: </summary>
+
+Follow the instruction below to successfully run one of our machine learning models. The .ipynb files with outputs have been stored in the ‘Machine Learning’ folder of the GitHub repository. Note: most of our models take anywhere from 5-10 minutes to fit. 
+1.	Navigate to the ‘Machine Learning’ portion of the GitHub repository.  
+2.	Select one of the machine learning models and download the corresponding .ipynb file. Since our highest scoring model is the “ML_ensemble_random_forest” file, we recommend running this one. 
+3.	The notebook connects to our AWS database by installing a copy of postgres within the notebook and retrieving the data. The credentials to connect to the database are provided in the notebook. 
+4.	Execute the remaining code to completion. 
+
+</details>
 
